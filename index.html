@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+
+</head>
+<body>    
+
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <hr>
+    <br>
+    <label for="user"> Name: </label>
+    <input type="text" id="user"name="user" placeholder="User Name">
+     <br>
+     <br>
+    
+    <label for="email"> Email: </label>
+    <input type="email" id="email" name="useremail" placeholder="User Email" required>
+    <br>
+    <br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password" placeholder="Password" required>
+    <br>
+    <br>
+    <label for="phn">Phone:</label>
+    <br>
+    <br>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+990">+990</option>
+        <option value="+110">+110</option>
+
+    </select>
+
+    <input type="number" id="phn" name ="Phone" placeholder="enter mobile number" required>
+
+    <br>
+    <br>
+    <label for="country">Country</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="Australia"></option>
+        <option value="Canada"></option>
+    </datalist>
+    <br>
+    Gender:
+    <input type="radio" id="gnd1" name="gender">
+    <label for="gnd1">Male</label>
+    <input type="radio" id="gnd2" name="gender">
+    <label for="gnd2">Female</label>
+<br>
+<br>
+<label for="date"> Date of Birth</label>
+<input type="date" id="date" name="dob">
+
+<br>
+<br>
+<label fo="time">Time: </label>
+<input type="time" id="time" name="tm">
+
+<br>
+<br>
+
+<label for="colors">Colors</label>
+<input type="color" id="colors" name="col">
+<br>
+<br>
+
+<label for="file">Choose Photo: </label>
+<input type="file"id="file" name="photo">
+<br>
+<br>
+<input type="checkbox" for="vehicles1" name="vec">
+<label for="vehicles1">I have a bike</label>
+
+<input type="checkbox" for="vehicles2" name="vec">
+<label for="vehicles2">I have a bicycle</label>
+
+<br>
+
+<textarea name="comment" cols="30" rows="10">Comment Here</textarea>
+<br>
+<br>
+<input type="submit" value="Send">
+
+<input type="reset" value="Reset">
+
+   </body>
+
+</html>
